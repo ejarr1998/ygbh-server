@@ -20,7 +20,7 @@ const DEFAULT_SETTINGS = {
 };
 
 const SPEED = { QB: 6, WR: 8.5, DE: 7.5, CB: 8.5, DB: 8.5 };
-const FIELD = { losX: 0, markerX: 7, maxX: 20, halfW: 8.5 };
+const FIELD = { losX: 0, markerX: 7, maxX: 32, halfW: 8.5 }; // maxX = back of the painted end zone (x 25..33)
 
 // ---------- helpers ----------
 const sleep = () => {}; // (timers use tick loop)
